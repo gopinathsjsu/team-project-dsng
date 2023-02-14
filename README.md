@@ -76,6 +76,55 @@ Update Readme
 Final Report/PPT
 
 
+Tasks breakdown:
+
+Set up project and version control
+Basics of Android
+Basics of React
+Set up Figma
+Project design 
+System architecture
+Project design review
+System architecture review
+
+	Frontend dev
+Set up the development environment 
+Implement Sign-in/Sign-up UI
+Implement a Members page for enrolled members
+Implement a generic home page - viewable to all users
+Implement new enrollment UI for the employees
+Implement check-in/check-out UI for the employees
+Implement free-trial signup functionality
+
+	Backend dev
+Set up the development environment  
+Sign in/ Sign up APIs
+Admin
+Members
+Instructor
+APIs for enrolled members
+CRUD operations
+APIs for Administrator
+CRUD operations
+APIs for Instructor
+CRUD operations 
+APIs for Class schedules
+APIs for class enrollment
+APIs for customer logs
+ API integration and validation
+
+	Bugs and misc
+Basic mobile app for instant users
+Bug Bash 1
+Bug Bash 2
+Bug Bash 3
+Bug fixes 1
+Bug fixes 2
+Bug fixes 3
+Update Readme
+Final Report/PPT
+
+
 
 ## **UI Wireframes:**
 https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A1&t=klEgBxKoxnPJydci-1
