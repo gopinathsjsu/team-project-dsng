@@ -73,7 +73,6 @@ function About() {
                     </div>
                 </div>
             </div>
-            {/* Features End  */}
 
 
             {/* Team Start */}
