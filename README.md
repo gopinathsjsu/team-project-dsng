@@ -1,7 +1,42 @@
 # HealthClub Membership Management system
 
-Sprint 1:
-18th Feb - 3rd March
-https://docs.google.com/spreadsheets/d/1aO-eD-OZ_70IKY4vo3Ah2lRrr91JJs4od9LMENvpGQQ/edit#gid=0
+## **TEAM MEMBERS:**
+
+Devansh Bansal
+
+Nimish Lingesh (016387410)
+
+Shwetha Shyam Bhandary
+
+Girish Bisane
+
+
+## **TECH STACK:**
+
+Frontend - React
+Backend - Python
+Database - MySQL
+API Testing - Postman
+Cloud - Amazon Web Services
+
+## **Scrum meeting schedules:**
+
+Monday
+Saturday
+
+## **Tasks:**
+
+Frontend and deployment:
+Backend and Database: Nimish Lingesh, 
+
+## **Architectural Diagram:**
+
+## **Database Design:**
+
+
+
+## **Sprint Sheet:**
+https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit#gid=114168710
+
 
 
