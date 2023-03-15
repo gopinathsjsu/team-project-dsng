@@ -32,8 +32,7 @@ Backend and Database: Nimish Lingesh,
 ## **Architectural Diagram:**
 
 ## **Database Design:**
-
-
+![ER diagram]("https://github.com/gopinathsjsu/team-project-dsng/Project_Journal/ER_diagram.png")
 
 ## **Sprint Sheet:**
 https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit#gid=114168710
