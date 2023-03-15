@@ -5,7 +5,7 @@
 Devansh Bansal  
 Nimish Lingesh (016387410)  
 Shwetha Shyam Bhandary  
-Girish Bisane  
+Girish Bisane (016650348)
 
 ## **TECH STACK:**
 
