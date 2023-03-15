@@ -2,32 +2,28 @@
 
 ## **TEAM MEMBERS:**
 
-Devansh Bansal
-
-Nimish Lingesh (016387410)
-
-Shwetha Shyam Bhandary
-
-Girish Bisane
-
+Devansh Bansal  
+Nimish Lingesh (016387410)  
+Shwetha Shyam Bhandary  
+Girish Bisane  
 
 ## **TECH STACK:**
 
-Frontend - React
-Backend - Python
-Database - MySQL
-API Testing - Postman
-Cloud - Amazon Web Services
+Frontend - React  
+Backend - Python  
+Database - MySQL  
+API Testing - Postman  
+Cloud - Amazon Web Services  
 
 ## **Scrum meeting schedules:**
 
-Monday
-Saturday
+Monday  
+Saturday  
 
 ## **Tasks:**
 
-Frontend and deployment:
-Backend and Database: Nimish Lingesh, 
+Frontend and deployment:  
+Backend and Database: Nimish Lingesh,  
 
 ## **Architectural Diagram:**
 
