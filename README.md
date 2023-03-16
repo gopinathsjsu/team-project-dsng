@@ -22,7 +22,7 @@ Saturday
 
 ## **Tasks:**
 
-Frontend and deployment: Girish Bisane
+Frontend and deployment: Girish Bisane. 
 Backend and Database: Nimish Lingesh,  
 
 ## **Architectural Diagram:**
