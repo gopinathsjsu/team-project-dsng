@@ -23,7 +23,7 @@ function Navbar() {
                             </Link>
                             <Link to='/'>
                                 <a className="nav-item nav-link">Founder</a>
-                            </Link>
+                            </Link>   
                         </div>
                     </div>
                 </nav>
