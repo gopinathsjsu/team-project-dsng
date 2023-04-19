@@ -1,4 +1,4 @@
-# HealthClub Membership Management system
+# SharkHealth
 
 ## **TEAM MEMBERS:**
 
@@ -7,13 +7,22 @@ Nimish Lingesh (016387410)
 Shwetha Shyam Bhandary  
 Girish Bisane (016650348)
 
+## **CORE RESPONSIBILITIES**
+
+React UI - Shwetha, Girish
+Node JS Backend - Nimish
+Android UI - Devansh
+Deployment - Nimish, Devansh
+Documentation - Devansh
+
 ## **TECH STACK:**
 
-Frontend - React  
+Frontend - React + Android 
 Backend -  Node.js  
 Database - MySQL  
 API Testing - Insomnia, Postman  
 Cloud & Deployment - Amazon Web Services  
+
 
 ## **Scrum meeting schedules:**
 
