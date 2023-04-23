@@ -85,8 +85,6 @@
             android:orientation="horizontal"
             >
 
-
-
                 <RadioButton
                     android:layout_width="25dp"
                     android:layout_height="match_parent"/>
@@ -118,6 +116,15 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/gender"></EditText>
+
+        <Button
+            android:layout_width="150dp"
+            android:text="Submit"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/phone"></Button>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
