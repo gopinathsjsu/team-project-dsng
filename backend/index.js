@@ -35,7 +35,7 @@ app.listen(process.env.PORT, () => {
   console.log(`Server listening on port ${process.env.PORT}`);
 });
 
-app.use('/user', customerRouter);
+app.use('/customer', customerRouter);
 // app.use('/drone', droneRouter);
 // app.use('/booking', bookingRouter);
 
