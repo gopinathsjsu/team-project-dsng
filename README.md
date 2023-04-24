@@ -27,6 +27,10 @@ Backend and Database: Nimish Lingesh, Devansh
 Android Development: Devansh
 UI Wirefames: Devansh
 
+
+## **UI Wireframes:**
+https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A1&t=klEgBxKoxnPJydci-1
+
 ## **Architectural Diagram:**
 
 ## **Database Design:**
