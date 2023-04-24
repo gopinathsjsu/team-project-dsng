@@ -48,10 +48,9 @@ export const signUp = async(req, res) => {
             else {
               res.status(200).json({
                 success: true,
-                payload: {
-                  data: result[0],
-                }
+                
               })
+              console.log("Successfully created new customer record!");
             }
           });
         }
@@ -103,10 +102,8 @@ export const updateCustomer = ( req, res) => {
     `;
 
     const getUserByIdQuery = 'SELECT * FROM customer WHERE customer_id = ?';
-    console.log("Before query");
 
     hashPassword(password).then((customerPassword) => {
-      console.log("password: ", customerPassword);
       con.query(updateQuery, 
         [fname, 
         lname, 

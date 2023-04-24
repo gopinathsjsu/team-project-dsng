@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post('/signup', signUp);
 router.post('/signin', signIn);
-router.post('/updateUser', updateCustomer);
+router.post('/updateCustomer', updateCustomer);
 router.get('/verifyToken', checkTokenValidation);
 router.get('/getAllCustomers', getAllCustomers);
 router.get('/:customerId', getCustomer);
