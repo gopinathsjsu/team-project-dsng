@@ -41,6 +41,10 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
+        binding.freetrialsignup.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_FreeTrialFragment)
+        }
+
         binding.membercheckin.setOnClickListener{
             showDialog("Checked In Successfully")
         }

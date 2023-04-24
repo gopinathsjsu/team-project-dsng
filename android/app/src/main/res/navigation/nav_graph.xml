@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_FreeTrialFragment"
+            app:destination="@+id/FreeTrialFragment"/>
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -24,5 +27,13 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FreeTrialFragment"
+        android:name="com.example.a202project.FreeTrialFragment"
+        android:label="Free Trial Sign Up"
+        tools:layout="@layout/fragment_free_trial">
+
     </fragment>
 </navigation>
