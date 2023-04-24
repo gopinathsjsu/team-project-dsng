@@ -10,7 +10,7 @@ Girish Bisane (016650348)
 ## **TECH STACK:**
 
 Frontend - React  
-Backend - Python + Node.js  
+Backend -  Node.js  
 Database - MySQL  
 API Testing - Postman  
 Cloud & Deployment - Amazon Web Services  
