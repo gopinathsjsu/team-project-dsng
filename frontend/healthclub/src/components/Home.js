@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import Login from "./Login";
 
 function Home() {
     return (
@@ -41,23 +42,17 @@ function Home() {
                     <div className="col-md-6 p-0">
                         <div className="gym-class-box d-flex flex-column align-items-end justify-content-center bg-primary text-right text-white py-5 px-5">
                             <i className="flaticon-six-pack"></i>
-                            <h3 className="display-4 mb-3 text-white font-weight-bold">Body Building</h3>
+                            <h3 className="display-4 mb-3 text-white font-weight-bold">How Excited are you today?</h3>
                             <p>
-                                Lorem justo tempor sit aliquyam invidunt, amet vero ea dolor ipsum ut diam sit dolores, dolor
-                                sit eos sea sanctus erat lorem nonumy sanctus takimata. Kasd amet sit sadipscing at..
+                                We are excited to see you at class. Login and book your spots. For being a member reach out the branch and enroll yuourself gor free trial and koin classes.
                             </p>
-                            <a href="" className="btn btn-lg btn-outline-light mt-4 px-4">Join Now</a>
                         </div>
                     </div>
                     <div className="col-md-6 p-0">
                         <div className="gym-class-box d-flex flex-column align-items-start justify-content-center bg-secondary text-left text-white py-5 px-5">
                             <i className="flaticon-bodybuilding"></i>
-                            <h3 className="display-4 mb-3 text-white font-weight-bold">Muscle Building</h3>
-                            <p>
-                                Lorem justo tempor sit aliquyam invidunt, amet vero ea dolor ipsum ut diam sit dolores, dolor
-                                sit eos sea sanctus erat lorem nonumy sanctus takimata. Kasd amet sit sadipscing at..
-                            </p>
-                            <a href="" className="btn btn-lg btn-outline-light mt-4 px-4">Join Now</a>
+                            <h3 className="display-4 mb-3 text-white font-weight-bold">Login </h3>
+                            <Login />
                         </div>
                     </div>
                 </div>
@@ -91,44 +86,6 @@ function Home() {
                 </div>
             </div>
             {/* About End */}
-
-
-            {/* Features Start */}
-            <div className="container-fluid my-5">
-                <div className="row">
-                    <div className="col-lg-4 p-0">
-                        <div className="d-flex align-items-center bg-secondary text-white px-5" style={{ minHeight: "300px" }}>
-                            <i className="flaticon-training display-3 text-primary mr-3"></i>
-                            <div className="">
-                                <h2 className="text-white mb-3">Progression</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 p-0">
-                        <div className="d-flex align-items-center bg-primary text-white px-5" style={{ minHeight: "300px" }}>
-                            <i className="flaticon-weightlifting display-3 text-secondary mr-3"></i>
-                            <div className="">
-                                <h2 className="text-white mb-3">Workout</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 p-0">
-                        <div className="d-flex align-items-center bg-secondary text-white px-5" style={{ minHeight: "300px" }}>
-                            <i className="flaticon-treadmill display-3 text-primary mr-3"></i>
-                            <div className="">
-                                <h2 className="text-white mb-3">Nutrition</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Features End */}
 
 
             {/* GYM Feature Start */}
@@ -454,76 +411,6 @@ function Home() {
             </div >
             {/* Class Timetable End */}
 
-            {/* Team Start */}
-            <div className="container pt-5 team">
-                <div className="d-flex flex-column text-center mb-5">
-                    <h4 className="text-primary font-weight-bold">Our Trainers</h4>
-                    <h4 className="display-4 font-weight-bold">Meet Our Expert Trainers</h4>
-                </div>
-                <div className="row">
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <div className="card border-0 bg-secondary text-center text-white">
-                            <img className="card-img-top" src="img/team-1.jpg" alt="" />
-                            <div className="card-social d-flex align-items-center justify-content-center">
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-linkedin-in"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-instagram"></i></a>
-                            </div>
-                            <div className="card-body bg-secondary">
-                                <h4 className="card-title text-primary">Trainer Name</h4>
-                                <p className="card-text">Trainer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <div className="card border-0 bg-secondary text-center text-white">
-                            <img className="card-img-top" src="img/team-2.jpg" alt="" />
-                            <div className="card-social d-flex align-items-center justify-content-center">
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-linkedin-in"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-instagram"></i></a>
-                            </div>
-                            <div className="card-body bg-secondary">
-                                <h4 className="card-title text-primary">Trainer Name</h4>
-                                <p className="card-text">Trainer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <div className="card border-0 bg-secondary text-center text-white">
-                            <img className="card-img-top" src="img/team-3.jpg" alt="" />
-                            <div className="card-social d-flex align-items-center justify-content-center">
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-linkedin-in"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-instagram"></i></a>
-                            </div>
-                            <div className="card-body bg-secondary">
-                                <h4 className="card-title text-primary">Trainer Name</h4>
-                                <p className="card-text">Trainer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <div className="card border-0 bg-secondary text-center text-white">
-                            <img className="card-img-top" src="img/team-4.jpg" alt="" />
-                            <div className="card-social d-flex align-items-center justify-content-center">
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-linkedin-in"></i></a>
-                                <a className="btn btn-outline-light rounded-circle text-center mr-2 px-0" style={{ width: "40px", height: "40px" }} href="#"><i className="fab fa-instagram"></i></a>
-                            </div>
-                            <div className="card-body bg-secondary">
-                                <h4 className="card-title text-primary">Trainer Name</h4>
-                                <p className="card-text">Trainer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Team End */}
             <Footer />
         </>
     );
