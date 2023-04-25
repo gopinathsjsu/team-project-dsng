@@ -162,7 +162,7 @@ export const getAllAdmins = (req, res) => {
             console.error(err);
             sendInternalServerError(res);
         }
-        else{
+        else if (result && result.length>0) {
             res.status(200).json({
             success: true,
             payload: {
@@ -171,6 +171,10 @@ export const getAllAdmins = (req, res) => {
             });
             console.log("get all Admins");
             console.log(result);
+        }
+        else {
+          res.status(404).json({ errors: ['Empty records'] });
+          console.log("Empty records")
         }
         });  
     }
@@ -190,7 +194,7 @@ export const getAdmin = (req, res) => {
             console.error(err);
             sendInternalServerError(res);
         }
-        else{
+        else if (result && result.length>0) {
             res.status(200).json({
             success: true,
             payload: {
@@ -199,6 +203,10 @@ export const getAdmin = (req, res) => {
             });
             console.log("getAdmin with adminId: ",adminId);
             console.log(result);
+        }
+        else {
+          res.status(404).json({ errors: ['Empty records'] });
+          console.log("Empty records")
         }
         });  
     }

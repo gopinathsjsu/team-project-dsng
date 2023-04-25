@@ -3,9 +3,6 @@ import { signUp, updateAdmin, getAdmin, deleteAdmin, getAllAdmins} from '../cont
 
 const router = express.Router();
 
-// router.post('/signin', signIn);
-// router.get('/verifyToken', checkTokenValidation);
-
 router.post('/signup', signUp);
 router.post('/updateAdmin', updateAdmin);
 router.get('/getAllAdmins', getAllAdmins);
