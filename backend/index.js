@@ -5,6 +5,7 @@ import express from 'express';
 
 import customerRouter from './routes/customerRoutes.js';
 import adminRouter from  './routes/adminRoutes.js';
+import instructorRouter from  './routes/instructorRoutes.js';
 import { signIn } from  './controllers/common.js';
 // import bookingRouter from './routes/BookingRoutes.js';
 
@@ -37,6 +38,7 @@ app.listen(process.env.PORT, () => {
 });
 
 app.use('/customer', customerRouter);
+app.use('/instructor', instructorRouter);
 app.use('/admin', adminRouter);
 // app.use('/booking', bookingRouter);
 app.get('/signin', signIn);
