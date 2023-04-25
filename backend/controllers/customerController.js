@@ -48,10 +48,9 @@ export const signUp = async(req, res) => {
             else {
               res.status(200).json({
                 success: true,
-                payload: {
-                  data: result[0],
-                }
+                
               })
+              console.log("Successfully created new customer record!");
             }
           });
         }
@@ -103,10 +102,8 @@ export const updateCustomer = ( req, res) => {
     `;
 
     const getUserByIdQuery = 'SELECT * FROM customer WHERE customer_id = ?';
-    console.log("Before query");
 
     hashPassword(password).then((customerPassword) => {
-      console.log("password: ", customerPassword);
       con.query(updateQuery, 
         [fname, 
         lname, 
@@ -158,70 +155,6 @@ export const updateCustomer = ( req, res) => {
   }
 }
 
-// POST on customer sign in
-export const signIn = (req, res) => {
-    const email = req.body.email;
-    const pwd = req.body.password;
-
-    console.log(req.body);
-    // var sql_findEmail = "SELECT * FROM customer where email = ? and pwd = ?";
-    var sql_findEmail = "SELECT * FROM customer where email = ?";
-    try{
-      con.query(sql_findEmail, [email, pwd], (err, result) => {
-        if(result[0]){
-          const { userId } = result[0];
-          const accessToken = createJWT(email, result[0].userId, 3600);
-          const tokenVerified = verifyToken(accessToken);
-          if(tokenVerified){
-            res.status(200).json({
-              success:true,
-              payload: {
-                data: result, 
-                token: accessToken,
-              },
-            })
-            console.log("Login success");
-          }
-          else{
-            res.status(401).json({
-              success: false,
-              message: ['Unauthorized User']
-            });
-          }
-        }
-        else {
-          res.status(404).json({ errors: ['Could not find entity'] });
-        }
-      });
-    }
-    catch(err){
-      res.status(500).json({
-        success: false,
-        message: err,
-      })
-    }
-}
-
-// GET on token validation
-export const checkTokenValidation = (req, res) => {
-  const { token } = req.params;
-  const tokenVerified = verifyToken(token);
-    if(tokenVerified){
-      res.status(200).json({
-            success: true,
-            payload:{
-              token,
-            }
-        });
-    }
-    else{
-      res.status(401).json({
-        success: false,
-        message: 'Unauthorized User'
-      });
-    }
-}
-
 //GET all customers
 export const getAllCustomers = (req, res) => {
   try{
@@ -231,7 +164,7 @@ export const getAllCustomers = (req, res) => {
         console.error(err);
         sendInternalServerError(res);
       }
-      else{
+      else if (result && result.length>0) {
         res.status(200).json({
           success: true,
           payload: {
@@ -240,6 +173,10 @@ export const getAllCustomers = (req, res) => {
         });
         console.log("get all Customers");
         console.log(result);
+      }
+      else {
+        res.status(404).json({ errors: ['Empty records'] });
+        console.log("Empty records")
       }
     });  
   }
@@ -259,7 +196,7 @@ export const getCustomer = (req, res) => {
         console.error(err);
         sendInternalServerError(res);
       }
-      else{
+      else if (result && result.length>0) {
         res.status(200).json({
           success: true,
           payload: {
@@ -268,6 +205,10 @@ export const getCustomer = (req, res) => {
         });
         console.log("getCustomer with customerId: ",customerId);
         console.log(result);
+      }
+      else {
+        res.status(404).json({ errors: ['Empty records'] });
+        console.log("Empty records")
       }
     });  
   }
