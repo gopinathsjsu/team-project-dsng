@@ -35,8 +35,7 @@ function Footer() {
                 </div>
                 <div class="container border-top border-dark pt-5">
                     <p class="m-0 text-center text-white">
-                        &copy; <a class="text-white font-weight-bold" href="#">Shark HealthClub</a>. All Rights Reserved. Designed
-                        by DNSG
+                        &copy; <a class="text-white font-weight-bold" href="#">Shark HealthClub</a>. All Rights Reserved by DNSG
                     </p>
                 </div>
             </div >
