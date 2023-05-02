@@ -135,8 +135,24 @@ export const deleteSchedule = (req, res) => {
 //GET all class schedules
 export const getClassSchedule = (req, res) => {
     try{
-        const getClassScheduleByQuery = `SELECT * FROM class_schedule`;
-        con.query(getClassScheduleByQuery, (err, result)=>{
+        var query_params = []
+        const day = req.query.day;
+        const instructorId = req.query.instructorId;
+        var getClassScheduleByQuery = `SELECT * FROM class_schedule `;
+        if (day && instructorId) {
+            query_params.push(day, instructorId);
+            getClassScheduleByQuery += `WHERE class_day = ? and instructor_id = ?`;
+        }
+        else if (day) {
+            query_params.push(day);
+            getClassScheduleByQuery += `WHERE class_day = ?`;
+        }
+        else if (instructorId) {
+            query_params.push(instructorId);
+            getClassScheduleByQuery += `WHERE instructor_id = ?`;
+        }
+        console.log("SQL Query: ", getClassScheduleByQuery);
+        con.query(getClassScheduleByQuery, query_params, (err, result)=>{
         if(err){
             console.error(err);
             sendInternalServerError(res);
