@@ -13,7 +13,7 @@
 
         <Button
             android:id="@+id/enrollment"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Enrollment"
             app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
 
         <Button
             android:id="@+id/membercheckin"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Member Check In"
             app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
 
         <Button
             android:id="@+id/membercheckout"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Member Check Out"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
 
         <Button
             android:id="@+id/freetrialsignup"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Free Trial Sign Up"
             app:layout_constraintEnd_toEndOf="parent"
@@ -50,9 +50,9 @@
 
         <Button
             android:id="@+id/Dashboard"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="Free Trial Sign Up"
+            android:text="Dashboard"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/freetrialsignup"/>
