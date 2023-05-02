@@ -1,11 +1,11 @@
 import express from 'express';
-import { createEnrollment, updateEnrollment, deleteEnrollment } from '../controllers/classEnrollmentController.js';
+import { createEnrollment, getClassEnrollment, deleteEnrollment } from '../controllers/classEnrollmentController.js';
 
 const router = express.Router();
 
-// Class schedules
+// Class enrollments
 router.post('/create', createEnrollment);
-router.post('/update', updateEnrollment);
-router.delete('/:scheduleId', deleteEnrollment);
+router.delete('/:enrollmentId', deleteEnrollment);
+router.get('/withSchedules', getClassEnrollment)
 
 export default router;

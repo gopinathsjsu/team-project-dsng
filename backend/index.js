@@ -40,7 +40,7 @@ app.listen(process.env.PORT, () => {
 });
 
 app.use('/customer', customerRouter);
-app.use('/admin/classEnrollment', classEnrollment);
+app.use('/customer/classEnrollment', classEnrollment);
 app.use('/instructor', instructorRouter);
 app.use('/admin', adminRouter);
 app.use('/admin/classSchedule', adminClassSchedule);
