@@ -2,7 +2,7 @@
 
 ## **TEAM MEMBERS:**
 
-Devansh Bansal (016692832) 
+Devansh Bansal (016692832)  
 Nimish Lingesh (016387410)  
 Shwetha Shyam Bhandary  
 Girish Bisane (016650348)
