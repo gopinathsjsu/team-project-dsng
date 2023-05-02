@@ -5,10 +5,11 @@ import express from 'express';
 
 import customerRouter from './routes/customerRoutes.js';
 import adminRouter from  './routes/adminRoutes.js';
+import adminClassSchedule from  './routes/classScheduleRoutes.js';
+import classEnrollment from './routes/classEnrollmentRoutes.js';
 import instructorRouter from  './routes/instructorRoutes.js';
 import { signIn } from  './controllers/common.js';
 import { getClassSchedule, getClassSceduleById } from './controllers/classScheduleController.js';
-// import bookingRouter from './routes/BookingRoutes.js';
 
 dotenv.config();
 var app = express();
@@ -39,9 +40,10 @@ app.listen(process.env.PORT, () => {
 });
 
 app.use('/customer', customerRouter);
+app.use('/customer/classEnrollment', classEnrollment);
 app.use('/instructor', instructorRouter);
 app.use('/admin', adminRouter);
-// app.use('/booking', bookingRouter);
+app.use('/admin/classSchedule', adminClassSchedule);
 
 // common routes
 app.get('/signin', signIn);
