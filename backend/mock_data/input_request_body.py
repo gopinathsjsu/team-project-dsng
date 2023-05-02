@@ -22,12 +22,12 @@ create_admin = {
 
 create_customer = {
     "customer_id": 2001,
-    "customer_name": "Josh Campbell",
+    "customer_name": "Girish Bisane",
     "membership_id": None,
-    "address": "28 N Almaden Avenue",
+    "address": "1330 The Alameda",
     "age": 24,
     "gender": "male",
-    "phone": "788-734-2353",
+    "phone": "6696493871",
     "start_date": "2023-03-01",
     "end_dat": "2023-09-01",
 }
