@@ -2,7 +2,7 @@
 
 ## **TEAM MEMBERS:**
 
-Devansh Bansal (016692832)
+Devansh Bansal (016692832) 
 Nimish Lingesh (016387410)  
 Shwetha Shyam Bhandary  
 Girish Bisane (016650348)
@@ -12,7 +12,7 @@ Girish Bisane (016650348)
 Frontend - React  
 Backend -  Node.js  
 Database - MySQL  
-API Testing - Postman  
+API Testing - Insomnia, Postman  
 Cloud & Deployment - Amazon Web Services  
 
 ## **Scrum meeting schedules:**
@@ -23,9 +23,9 @@ Saturday
 ## **Tasks:**
 
 Frontend and deployment: Girish Bisane.   
-Backend and Database: Nimish Lingesh, Devansh
-Android Development: Devansh
-UI Wirefames: Devansh
+Backend and Database: Nimish Lingesh, Devansh  
+Android Development: Devansh  
+UI Wirefames: Devansh  
 
 
 ## **UI Wireframes:**
