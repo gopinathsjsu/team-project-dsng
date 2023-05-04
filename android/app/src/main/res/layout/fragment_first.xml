@@ -15,47 +15,59 @@
             android:id="@+id/enrollment"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:paddingBottom="20dp"
             android:text="Enrollment"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:paddingBottom="20dp"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/membercheckin"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             android:text="Member Check In"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/enrollment"/>
+            app:layout_constraintTop_toBottomOf="@+id/enrollment" />
 
         <Button
             android:id="@+id/membercheckout"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:text="Member Check Out"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/membercheckin"/>
+            app:layout_constraintTop_toBottomOf="@+id/membercheckin" />
 
         <Button
             android:id="@+id/freetrialsignup"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:text="Free Trial Sign Up"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/membercheckout"/>
+            app:layout_constraintTop_toBottomOf="@+id/membercheckout" />
 
         <Button
             android:id="@+id/Dashboard"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
             android:text="Dashboard"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:bottom="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/freetrialsignup"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/freetrialsignup" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
