@@ -1,12 +1,13 @@
 import con from "../index.js";
-import { sendCustomSuccess, sendInternalServerError, getCustomerName } from "./common.js";
+import { sendCustomSuccess, sendInternalServerError } from "./common.js";
+import { getDayOfWeek, getCustomerName } from "./utils.js";
 
 // POST on logCheckin
 export const logCheckin = async(req, res) => {
     var club_id = req.body.clubId;
     var checkin_time = req.body.checkin;
     var customer_id = req.query.customerId;
-    var week_day = checkin_time;
+    var week_day = getDayOfWeek(checkin_time);
 
     const customer_details = await getCustomerName(customer_id);
     console.log("Displaying customer details: ", customer_details);

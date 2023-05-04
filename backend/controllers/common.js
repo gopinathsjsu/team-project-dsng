@@ -23,25 +23,6 @@ export const sendCustomSuccess = (res, payload) =>{
     });
 } 
 
-// Utility function to get customer details from customer_id
-export function getCustomerName (customer_id) {
-  var customer_id = customer_id;
-  var sql_findCustomer = "SELECT * FROM customer WHERE customer_id = ?";
-  return new Promise((resolve, reject) => {
-    con.query(sql_findCustomer, [customer_id], (err, result) => {
-      if (err) {
-        reject(err);
-      } else if (result && result.length > 0) {
-        console.log("Checking for the Customer existence", result);
-        var normalObj = Object.assign({}, result[0]);
-        resolve(normalObj);
-      } else {
-        resolve([]);
-      }
-    });
-  });
-}
-
 // POST on customer/admin/instructor sign in
 export const signIn = (req, res) => {
     // console.log(req);
