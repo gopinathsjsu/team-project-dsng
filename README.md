@@ -7,6 +7,14 @@ Nimish Lingesh (016387410)
 Shwetha Shyam Bhandary  
 Girish Bisane (016650348)
 
+## **XP VALUES**
+
+1. Communication: Our team maintained a high level of communication by regularly holding Scrum meetings every Monday. During these meetings, we openly discussed any dependencies or issues that arose and provided each other with constructive feedback. By utilizing the Github Project Board, we were able to effectively track the progress of our sprints.
+
+2. Respect: Our team operated with a high level of respect for each other's decisions and timelines. By valuing each other's input and contributions, we were able to work together cohesively and efficiently towards achieving our shared objectives.
+
+3. Simplicity: To ensure that the project was executed efficiently, our team focused on implementing only the essential and required tasks. By doing so, we were able to avoid any unnecessary complications and ensure that our efforts were always streamlined towards the end goal.
+
 ## **CORE RESPONSIBILITIES**
 
 React UI - Shwetha, Girish
