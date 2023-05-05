@@ -51,10 +51,10 @@ export const logCheckin = async(req, res) => {
         });
         }
         else {
-        console.log('Error: Conflict with the existing log at the same time');
+        console.log('Error: Conflict with the existing log having same time');
         res.status(500).json({
             success:false,
-            message: 'Conflict with the existing log at the same time',
+            message: 'Conflict with the existing log having same time',
         });
         }
     }
