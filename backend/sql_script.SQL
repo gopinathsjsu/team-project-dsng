@@ -7,7 +7,7 @@ CREATE TABLE administrator (
     pwd VARCHAR(50),
     address VARCHAR(100),
     age INT,
-    gender VARCHAR(10),
+    gender VARCHAR(8),
     phone varchar(15),
     PRIMARY KEY (admin_id)
 );
