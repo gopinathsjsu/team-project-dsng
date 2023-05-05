@@ -27,7 +27,7 @@ export const createSchedule = async(req, res) => {
             if (err) {
             res.status(205).json({
                 success:false,
-                message: 'FAiled to add class',
+                message: 'Failed to add class',
             });
             console.error(err);
             }

@@ -6,6 +6,7 @@ import express from 'express';
 import customerRouter from './routes/customerRoutes.js';
 import adminRouter from  './routes/adminRoutes.js';
 import adminClassSchedule from  './routes/classScheduleRoutes.js';
+import logHrs from './routes/logHrsRoutes.js';
 import classEnrollment from './routes/classEnrollmentRoutes.js';
 import instructorRouter from  './routes/instructorRoutes.js';
 import { signIn } from  './controllers/common.js';
@@ -41,6 +42,7 @@ app.listen(process.env.PORT, () => {
 
 app.use('/customer', customerRouter);
 app.use('/customer/classEnrollment', classEnrollment);
+app.use('/customer/logHrs', logHrs);
 app.use('/instructor', instructorRouter);
 app.use('/admin', adminRouter);
 app.use('/admin/classSchedule', adminClassSchedule);
