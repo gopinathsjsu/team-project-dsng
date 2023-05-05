@@ -15,6 +15,7 @@ Girish Bisane (016650348)
 
 3. Simplicity: To ensure that the project was executed efficiently, our team focused on implementing only the essential and required tasks. By doing so, we were able to avoid any unnecessary complications and ensure that our efforts were always streamlined towards the end goal.
 
+
 ## **CORE RESPONSIBILITIES**
 
 React UI - Shwetha, Girish
