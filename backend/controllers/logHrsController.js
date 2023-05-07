@@ -1,6 +1,6 @@
 import con from "../index.js";
 import { sendCustomSuccess, sendInternalServerError } from "./common.js";
-import { getTime, logActivities, getDayOfWeek, getCustomerName, getCheckinTime } from "./utils.js";
+import { getTime, timeOneWeekAgo, timeNMonthAgo, formatTime, logActivities, getDayOfWeek, getCustomerName, getCheckinTime } from "./utils.js";
 
 // POST on logCheckin
 export const logCheckin = async(req, res) => {
@@ -126,6 +126,7 @@ export const logCheckout = async(req, res) => {
 
 };
 
+// POST on log activities
 export const logActivity = async(req, res) => {
     var club_id = req.body.clubId;
     var timestamp = req.body.timestamp;
@@ -149,3 +150,48 @@ export const logActivity = async(req, res) => {
         return 1;
     }
 }
+
+// GET activity logs; filter on customerId and time period week/month/90days
+export const getActivityLog = async(req, res) => {
+    var customer_id = req.query.customerId;
+    var time_period = req.query.timePeriod || "month";
+    // var curr_time = getTime();
+
+    switch(time_period){
+        case "week":
+            time_period = formatTime(timeOneWeekAgo());
+            break;
+        case "month":
+            time_period = formatTime(timeNMonthAgo(1));
+            break;
+        case "90days":
+            time_period = formatTime(timeNMonthAgo(3));
+            break;
+        default:
+            res.status(404).json({ errors: ['Incorrect timePeriod. Choose week/month/90days'] });
+            console.log("Incorrect timePeriod. Choose week/month/90days");
+            return 1;
+    }
+    var getActivityLogQuery = `SELECT SUM(total_time) AS totlaTime, activity FROM log_activity \
+    WHERE customer_id = ? AND timestamp > ? GROUP BY activity` ;
+    
+    console.log("customerId: ", customer_id);
+    con.query(getActivityLogQuery, [customer_id, time_period], (err, result)=>{
+        if(err){
+            console.error(err);
+            sendInternalServerError(res);
+        }
+        else if (result && result.length>0) {
+            res.status(200).json({
+                success: true,
+                payload: result
+            });
+            console.log("get all activity logs for customer: ", result);
+        }
+        else {
+          res.status(404).json({ errors: ['Empty logs for activity'] });
+          console.log("Empty logs for activity")
+        }
+    });
+}
+

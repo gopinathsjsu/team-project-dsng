@@ -1,14 +1,35 @@
 import con from "../index.js";
 
+export function timeOneWeekAgo(){
+    var currentDate = new Date();
+    var oneWeekAgo = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000));
+    var dateOneWeekAgo = new Date(oneWeekAgo);
+    return dateOneWeekAgo;
+}
+
+export function timeNMonthAgo(n){
+    var currentDate = new Date();
+    var nMonthAgo = new Date(currentDate.getFullYear(), currentDate.getMonth() - n, currentDate.getDate()).getTime();
+    var dateNMonthsAgo = new Date(nMonthAgo);
+    return dateNMonthsAgo;
+} 
+
+export function formatTime(time){
+    var date = time.getFullYear()+'-'+(time.getMonth()+1)+'-'+time.getDate();
+    var time_val = time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+    var dateTime = date+' '+time_val;
+    return dateTime;
+}
+
 
 export function getTime(){
     var today = new Date();
-    console.log(today);
     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     var dateTime = date+' '+time;
     return dateTime;
 }
+
 // Utility function to return the day of the week
 export function getDayOfWeek(dateStr){
     const dateObj = new Date(dateStr);

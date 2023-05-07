@@ -164,8 +164,7 @@ export const getClassSchedule = (req, res) => {
                 data: result, 
             },
             });
-            console.log("get all class schedules");
-            console.log(result);
+            console.log("get all class schedules", result);
         }
         else {
           res.status(404).json({ errors: ['Empty class schedules'] });
