@@ -2,7 +2,23 @@
 function Login() {
     return (
         <>
-            <a href="" className="btn btn-lg btn-outline-light mt-4 px-4">LogIn Now</a>
+            <div className="form">
+                <form>
+                    <div className="input-container">
+                        <label>Username </label>
+                        <input type="text" name="uname" style={{ marginLeft: "6px" }} required />
+                        {/* {renderErrorMessage("uname")} */}
+                    </div>
+                    <div className="input-container">
+                        <label>Password </label>
+                        <input type="password" name="pass" style={{ marginLeft: "6px" }} required />
+                        {/* {renderErrorMessage("pass")} */}
+                    </div>
+                    <div className="button-container">
+                        <input type="submit" />
+                    </div>
+                </form>
+            </div>
         </>
     );
 }
