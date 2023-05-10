@@ -12,6 +12,13 @@ CREATE TABLE administrator (
     PRIMARY KEY (admin_id)
 );
 
+CREATE TABLE club (
+   club_id INT NOT NULL auto_increment,
+   city VARCHAR(50),
+   area VARCHAR(50),
+   country VARCHAR(50),
+   PRIMARY KEY (club_id));
+   
 CREATE TABLE customer (
     customer_id INT NOT NULL auto_increment,
     membership_id INT REFERENCES membership(membership_id),
