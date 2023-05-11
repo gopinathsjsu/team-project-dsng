@@ -9,7 +9,7 @@ import adminClassSchedule from  './routes/classScheduleRoutes.js';
 import logHrs from './routes/logHrsRoutes.js';
 import classEnrollment from './routes/classEnrollmentRoutes.js';
 import instructorRouter from  './routes/instructorRoutes.js';
-import { signIn } from  './controllers/common.js';
+import { signIn, checkTokenValidation } from  './controllers/common.js';
 import { getClassSchedule, getClassSceduleById } from './controllers/classScheduleController.js';
 
 dotenv.config();
@@ -24,11 +24,11 @@ const corsConfig = {
 app.use(cors(corsConfig));
 
 var con = createConnection({
-  // host: "drone-verse.crp12qoj1mnb.us-east-2.rds.amazonaws.com",
+  // host: "health-club.cdzoyvebj6d5.us-east-1.rds.amazonaws.com",
   // port: 3306,
   // user: "admin",
-  // password: "admin1234",
-  // database: "drone_verse"
+  // password: "mysqlpwd#12345",
+  // database: "HealthClub"
   host: "localhost",
   port: 3306,
   user: "root",
@@ -49,6 +49,7 @@ app.use('/admin/classSchedule', adminClassSchedule);
 
 // common routes
 app.get('/signin', signIn);
+app.use('/user/verifyToken/:token', checkTokenValidation);
 app.get('/classSchedule', getClassSchedule);
 app.get('/classSchedule/:scheduleId', getClassSceduleById);
 
