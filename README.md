@@ -1,4 +1,4 @@
-# SharkHealth
+# SharkHealth - Team DSNG
 
 ## **TEAM MEMBERS:**
 
@@ -6,6 +6,14 @@ Devansh Bansal (016692832)
 Nimish Lingesh (016387410)  
 Shwetha Shyam Bhandary  (016285711)  
 Girish Bisane (016650348)
+
+## **CORE RESPONSIBILITIES**
+
+React UI - Shwetha, Girish  
+Node JS Backend - Nimish  
+Android UI - Devansh  
+Deployment - Nimish, Devansh  
+Documentation - Devansh  
 
 ## **XP VALUES**
 
@@ -15,14 +23,6 @@ Girish Bisane (016650348)
 
 3. Simplicity: To ensure that the project was executed efficiently, our team focused on implementing only the essential and required tasks. By doing so, we were able to avoid any unnecessary complications and ensure that our efforts were always streamlined towards the end goal.
 
-
-## **CORE RESPONSIBILITIES**
-
-React UI - Shwetha, Girish  
-Node JS Backend - Nimish  
-Android UI - Devansh  
-Deployment - Nimish, Devansh  
-Documentation - Devansh  
 
 ## **TECH STACK:**
 
@@ -38,116 +38,20 @@ Cloud & Deployment - Amazon Web Services
 Monday  
 Saturday  
 
-## **Tasks:**
-
-Frontend and deployment: Girish Bisane.   
-Backend and Database: Nimish Lingesh, Devansh  
-Android Development: Devansh  
-UI Wirefames: Devansh  
-
-Detailed:
-
-Set up project and version control
-Basics of Android
-Basics of React
-Set up Figma
-Project design 
-System architecture
-Project design review
-System architecture review
-
-	Frontend dev
-Set up the development environment 
-Implement Sign-in/Sign-up UI
-Implement a Members page for enrolled members
-Implement a generic home page - viewable to all users
-Implement new enrollment UI for the employees
-Implement check-in/check-out UI for the employees
-Implement free-trial signup functionality
-
-	Backend dev
-Set up the development environment  
-Sign in/ Sign up APIs
-Admin
-Members
-Instructor
-APIs for enrolled members
-CRUD operations
-APIs for Administrator
-CRUD operations
-APIs for Instructor
-CRUD operations 
-APIs for Class schedules
-APIs for class enrollment
-APIs for customer logs
-API integration and validation
-
-	Bugs and misc
-Basic mobile app for instant users
-Bug Bash 1
-Bug Bash 2
-Bug Bash 3
-Bug fixes 1
-Bug fixes 2
-Bug fixes 3
-Update Readme
-Final Report/PPT
-
-
-Tasks breakdown:
-
-Set up project and version control
-Basics of Android
-Basics of React
-Set up Figma
-Project design 
-System architecture
-Project design review
-System architecture review
-
-	Frontend dev
-Set up the development environment 
-Implement Sign-in/Sign-up UI
-Implement a Members page for enrolled members
-Implement a generic home page - viewable to all users
-Implement new enrollment UI for the employees
-Implement check-in/check-out UI for the employees
-Implement free-trial signup functionality
-
-	Backend dev
-Set up the development environment  
-Sign in/ Sign up APIs
-Admin
-Members
-Instructor
-APIs for enrolled members
-CRUD operations
-APIs for Administrator
-CRUD operations
-APIs for Instructor
-CRUD operations 
-APIs for Class schedules
-APIs for class enrollment
-APIs for customer logs
- API integration and validation
-
-	Bugs and misc
-Basic mobile app for instant users
-Bug Bash 1
-Bug Bash 2
-Bug Bash 3
-Bug fixes 1
-Bug fixes 2
-Bug fixes 3
-Update Readme
-Final Report/PPT
-
-
 
 ## **UI Wireframes:**
 https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A1&t=klEgBxKoxnPJydci-1
 
 ## **Architectural Diagram:**
+
+
+**Use Case Diagram**
+
+
+<img width="470" alt="Screen Shot 2023-05-12 at 3 07 13 PM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/ad7240ed-3e54-4185-aaac-44b1774f9703">
+
+
+
 
 **Component Diagram**
 
@@ -170,12 +74,15 @@ https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A
 <img width="1049" alt="Screen Shot 2023-05-12 at 11 26 54 AM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/aa12aef2-60ea-4298-a1da-09130854853e">
 
 
+
+
+
 ## **Database Design:**
 
 <img width="1049" alt="ER diagram" src="https://github.com/gopinathsjsu/team-project-dsng/blob/main/Project_Journal/ER_diagram.png">
 
 ## **Sprint Sheet:**
-https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit#gid=114168710
+https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit?usp=sharing
 
 
 
