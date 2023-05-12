@@ -18,11 +18,11 @@ Girish Bisane (016650348)
 
 ## **CORE RESPONSIBILITIES**
 
-React UI - Shwetha, Girish
-Node JS Backend - Nimish
-Android UI - Devansh
-Deployment - Nimish, Devansh
-Documentation - Devansh
+React UI - Shwetha, Girish  
+Node JS Backend - Nimish  
+Android UI - Devansh  
+Deployment - Nimish, Devansh  
+Documentation - Devansh  
 
 ## **TECH STACK:**
 
