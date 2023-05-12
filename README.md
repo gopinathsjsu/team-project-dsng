@@ -67,12 +67,13 @@ https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A
 
 
 
-
-
 **Deployment Diagram**
 
 
-<img width="1049" alt="Screen Shot 2023-05-12 at 11 26 54 AM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/aa12aef2-60ea-4298-a1da-09130854853e">
+<img width="655" alt="Screen Shot 2023-05-12 at 3 20 25 PM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/4786f463-a701-4de2-a668-7d83f2dcdc26">
+
+
+
 
 
 
