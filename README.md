@@ -86,5 +86,8 @@ https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A
 ## **Sprint Sheet:**
 https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit?usp=sharing
 
+## **Project Journal**
+https://docs.google.com/document/d/103RjwRGUESwd1oU-0y8uoB70kjempDACeuAnqFWusSM/edit?usp=sharing
+
 
 
