@@ -149,6 +149,27 @@ https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A
 
 ## **Architectural Diagram:**
 
+**Component Diagram**
+
+
+
+<img width="736" alt="Screen Shot 2023-05-12 at 11 33 48 AM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/bf0deb0e-8e65-4a72-937d-8cb95d520d72">
+
+
+
+
+
+
+
+
+
+
+**Deployment Diagram**
+
+
+<img width="1049" alt="Screen Shot 2023-05-12 at 11 26 54 AM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/aa12aef2-60ea-4298-a1da-09130854853e">
+
+
 ## **Database Design:**
 ![ER diagram]("https://github.com/gopinathsjsu/team-project-dsng/blob/main/Project_Journal/ER_diagram.png")
 
