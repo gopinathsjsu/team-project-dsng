@@ -29,7 +29,7 @@ CREATE TABLE customer (
     address VARCHAR(100),
     age INT,
     gender VARCHAR(10),
-    phone varchar(15),
+    phone varchar(13),
     start_date DATE,
     end_date DATE,
     PRIMARY KEY (customer_id)
