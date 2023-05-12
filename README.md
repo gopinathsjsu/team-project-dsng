@@ -171,7 +171,8 @@ https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A
 
 
 ## **Database Design:**
-![ER diagram]("https://github.com/gopinathsjsu/team-project-dsng/blob/main/Project_Journal/ER_diagram.png")
+
+<img width="1049" alt="ER diagram" src="https://github.com/gopinathsjsu/team-project-dsng/blob/main/Project_Journal/ER_diagram.png">
 
 ## **Sprint Sheet:**
 https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit#gid=114168710
