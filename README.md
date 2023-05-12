@@ -56,8 +56,9 @@ https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A
 **Component Diagram**
 
 
+<img width="722" alt="Screen Shot 2023-05-12 at 3 17 51 PM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/349503e2-98b2-4645-870c-65ad4935c114">
 
-<img width="736" alt="Screen Shot 2023-05-12 at 11 33 48 AM" src="https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/bf0deb0e-8e65-4a72-937d-8cb95d520d72">
+
 
 
 
