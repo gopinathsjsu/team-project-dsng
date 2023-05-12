@@ -75,7 +75,7 @@ CREATE TABLE log (
     timestamp DATETIME,
     checkin DATETIME,
     checkout DATETIME,
-    total_time VARCHAR(50),
+    total_time VARCHAR(40),
     week_day VARCHAR(50),
     PRIMARY KEY (log_id)
 );
