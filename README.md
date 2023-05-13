@@ -69,6 +69,18 @@ Cloud & Deployment - Amazon Web Services
 - AWS offers a range of tools and services for monitoring and optimizing application performance, including AWS CloudWatch and AWS X-Ray.
 - AWS has a large and active developer community, with a wealth of resources and support available. 
 
+## **Feature set**
+**1. Homepage**
+- Displays the homepage with options to either login as user or admin, or just view the classes as non user.
+- Displays user login page upon clicking user login button.
+- Displays admin login upon clicking admin login button.
+
+**2. User login**
+- User can enroll in a class and can also track the activity.
+
+**3. Admin login**
+- Admin can add a new class, add user, check-in and check-out the users.
+- Admin can also check the user analytics.
 
 ## **Scrum meeting schedules:**
 
