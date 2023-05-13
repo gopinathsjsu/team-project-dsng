@@ -7,7 +7,7 @@
 
 
 
-## **TEAM MEMBERS:**
+## **TEAM MEMBERS**
 
 Devansh Bansal (016692832)  
 Nimish Lingesh (016387410)  
