@@ -33,11 +33,11 @@ Documentation - Devansh, Girish, Shwetha
 
 ## **TECH STACK:**
 
-Frontend - React + Android 
-Backend -  Node.js  
-Database - MySQL  
-API Testing - Insomnia, Postman  
-Cloud & Deployment - Amazon Web Services 
+- Frontend - React + Android
+- Backend -  Node.js  
+- Database - MySQL  
+- API Testing - Insomnia, Postman  
+- Cloud & Deployment - Amazon Web Services 
 
 ## **DESIGN CHOICES**
 
