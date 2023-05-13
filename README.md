@@ -89,7 +89,7 @@ Saturday
 
 
 ## **UI Wireframes:**
-https://www.figma.com/file/SQpGHrU4ucRPZAWWfHsfp4/202-UI-Wireframes?node-id=0%3A1&t=klEgBxKoxnPJydci-1
+https://app.uizard.io/prototypes/9o5ZPyq3pKHK3oVBzYBW
 
 
 ## **Architectural Diagram:**
