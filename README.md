@@ -31,7 +31,7 @@ Documentation - Devansh, Girish, Shwetha
 3. Simplicity: To ensure that the project was executed efficiently, our team focused on implementing only the essential and required tasks. By doing so, we were able to avoid any unnecessary complications and ensure that our efforts were always streamlined towards the end goal.
 
 
-## **TECH STACK:**
+## **TECH STACK**
 
 - Frontend - React + Android
 - Backend -  Node.js  
@@ -82,17 +82,17 @@ Documentation - Devansh, Girish, Shwetha
 - Admin can add a new class, add user, check-in and check-out the users.
 - Admin can also check the user analytics.
 
-## **Scrum meeting schedules:**
+## **Scrum meeting schedules**
 
 Monday  
 Saturday  
 
 
-## **UI Wireframes:**
+## **UI Wireframes**
 https://docs.google.com/presentation/d/1ejsP-UyTWeh9Qb_JU1z0DFQohwOpRttyzEvK7obAEqY/edit?usp=sharing
 
 
-## **Architectural Diagram:**
+## **Architectural Diagram**
 
 
 **Use Case Diagram**
@@ -127,7 +127,7 @@ https://docs.google.com/presentation/d/1ejsP-UyTWeh9Qb_JU1z0DFQohwOpRttyzEvK7obA
 
 
 
-## **Database Design:**
+## **Database Design**
 
 <img width="1049" alt="ER diagram" src="https://github.com/gopinathsjsu/team-project-dsng/blob/main/Project_Journal/ER_diagram.png">
 
