@@ -89,7 +89,7 @@ Saturday
 
 
 ## **UI Wireframes:**
-https://app.uizard.io/prototypes/9o5ZPyq3pKHK3oVBzYBW
+https://docs.google.com/presentation/d/1ejsP-UyTWeh9Qb_JU1z0DFQohwOpRttyzEvK7obAEqY/edit?usp=sharing
 
 
 ## **Architectural Diagram:**
