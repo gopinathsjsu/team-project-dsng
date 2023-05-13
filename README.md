@@ -48,14 +48,14 @@ Cloud & Deployment - Amazon Web Services
 - SQL databases provide a range of powerful tools and features for managing data, including indexing, querying, and transaction processing.
 - Relational databases offer strong support for data integrity and security.
 - 
-**2. React - for front end**
+**2. React for front end**
 - React is a popular and widely used JavaScript library for building user interfaces.
 - React's component-based architecture makes it easy to create reusable UI elements.
 - React offers a high level of performance and efficiency due to its virtual DOM implementation.
 - The unidirectional data flow of React applications makes it easy to manage complex data and application state.
 - React's popularity means that there is a large and active developer community, with a wealth of resources and tools available.
 
-**3. Node.js - for back end:**
+**3. Node.js for back end:**
 Node.js is a popular and widely used JavaScript runtime for building server-side applications.
 Node.js offers high scalability and performance due to its event-driven, non-blocking I/O model.
 Node.js allows for easy integration with front-end technologies like React.
