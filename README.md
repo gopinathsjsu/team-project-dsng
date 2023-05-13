@@ -37,7 +37,37 @@ Frontend - React + Android
 Backend -  Node.js  
 Database - MySQL  
 API Testing - Insomnia, Postman  
-Cloud & Deployment - Amazon Web Services  
+Cloud & Deployment - Amazon Web Services 
+
+## **DESIGN CHOICES**
+
+**1.SQL for DBMS**
+- Relational databases are well-established and widely used, making them a safe choice for most applications.
+- SQL databases are ideal for handling structured data with complex relationships between different entities.
+- The ACID (Atomicity, Consistency, Isolation, Durability) properties of SQL databases ensure data consistency and reliability.
+- SQL databases provide a range of powerful tools and features for managing data, including indexing, querying, and transaction processing.
+- Relational databases offer strong support for data integrity and security.
+- 
+**2. React - for front end**
+- React is a popular and widely used JavaScript library for building user interfaces.
+- React's component-based architecture makes it easy to create reusable UI elements.
+- React offers a high level of performance and efficiency due to its virtual DOM implementation.
+- The unidirectional data flow of React applications makes it easy to manage complex data and application state.
+- React's popularity means that there is a large and active developer community, with a wealth of resources and tools available.
+
+**3. Node.js - for back end:**
+Node.js is a popular and widely used JavaScript runtime for building server-side applications.
+Node.js offers high scalability and performance due to its event-driven, non-blocking I/O model.
+Node.js allows for easy integration with front-end technologies like React.
+Node.js provides a wide range of built-in modules and packages, making it easy to develop complex applications quickly.
+Node.js has a large and active developer community, with a wealth of resources and tools available.
+
+**4. AWS for deployment:**
+AWS is a popular and widely used cloud platform, offering a range of services for hosting and deploying applications.
+AWS offers high scalability and reliability, with a range of tools and features for load balancing, auto-scaling, and disaster recovery.
+AWS provides a range of services for application deployment and management, including AWS Elastic Beanstalk, AWS CodeDeploy, and AWS CloudFormation.
+AWS offers a range of tools and services for monitoring and optimizing application performance, including AWS CloudWatch and AWS X-Ray.
+AWS has a large and active developer community, with a wealth of resources and support available. 
 
 
 ## **Scrum meeting schedules:**
