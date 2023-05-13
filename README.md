@@ -1,5 +1,12 @@
 # SharkHealth - Team DSNG
 
+
+![weightlifter](https://github.com/gopinathsjsu/team-project-dsng/assets/15967217/2c28578e-fb00-4b31-919d-d51826928552)
+
+
+
+
+
 ## **TEAM MEMBERS:**
 
 Devansh Bansal (016692832)  
