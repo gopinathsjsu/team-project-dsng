@@ -125,12 +125,6 @@ https://docs.google.com/presentation/d/1ejsP-UyTWeh9Qb_JU1z0DFQohwOpRttyzEvK7obA
 
 
 
-## **Sprint Sheet:**
-https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit?usp=sharing
-
-## **Project Journal**
-https://docs.google.com/document/d/103RjwRGUESwd1oU-0y8uoB70kjempDACeuAnqFWusSM/edit?usp=sharing
-
 
 
 ## **Database Design:**
@@ -139,5 +133,11 @@ https://docs.google.com/document/d/103RjwRGUESwd1oU-0y8uoB70kjempDACeuAnqFWusSM/
 
 
 
+
+## **Sprint Sheet:**
+https://docs.google.com/spreadsheets/d/1rwQPmmztqHnf5kMUhciBLWfkpwDeR8ddYjvT8Q6-cCc/edit?usp=sharing
+
+## **Project Journal**
+https://docs.google.com/document/d/103RjwRGUESwd1oU-0y8uoB70kjempDACeuAnqFWusSM/edit?usp=sharing
 
 
