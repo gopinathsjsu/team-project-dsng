@@ -11,7 +11,7 @@
 
 Devansh Bansal (016692832)  
 Nimish Lingesh (016387410)  
-Shwetha Shyam Bhandary  (016285711)  
+Shwetha Shyam Bhandary (016285711)  
 Girish Bisane (016650348)
 
 ## **CORE RESPONSIBILITIES**
@@ -84,8 +84,8 @@ Documentation - Devansh, Girish, Shwetha
 
 ## **Scrum meeting schedules**
 
-Monday  
-Saturday  
+1)Monday  
+2)Saturday  
 
 
 ## **UI Wireframes**
